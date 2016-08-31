@@ -1,4 +1,4 @@
-# PSWeakProxy [中文]
+# PSWeakProxy
 
 [![docs][docs]][CocoaPods] 
 [![Pod Version][version]][CocoaPods] 
