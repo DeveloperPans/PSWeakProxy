@@ -6,23 +6,23 @@
 [![Platform][platform]][CocoaPods] 
 ![SwiftCompatible]
 
-A proxy for resolve retain cycle,such as NSTimer etc.
+一个简单的组件，用于解决某些情况下的引用循环问题。
 
 ---
 
-### Getting Start
+### 走起
 
-#### Installation with CocoaPods
+#### CocoaPods 导入
 
-add follow line into your podfile:
+在 podfile 里面加入👇
 
 ```ruby
 pod 'PSWeakProxy'
 ```
 
-### Usage
+### 使用
 
-Talk is cheap,this is simple code.
+简单易用，直接上代码。
 
 ```objc
 PSWeakProxy *weakSelf = [[PSWeakProxy alloc] initWithObject:self];
@@ -51,5 +51,5 @@ self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0
 [blog]: http://shengpan.net
 
 
-[中文]: /README-zh.md
+[中文]: #
 
